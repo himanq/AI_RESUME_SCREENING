@@ -1,0 +1,54 @@
+{
+  "model": "RandomForestClassifier",
+  "test_size": 0.2,
+  "random_state": 42,
+  "training_rows": 24000,
+  "test_rows": 6000,
+  "accuracy": 0.8993333333333333,
+  "roc_auc": 0.961989050451836,
+  "classification_report": {
+    "Not Shortlisted": {
+      "precision": 0.851138353765324,
+      "recall": 0.8068622025456558,
+      "f1-score": 0.8284090909090909,
+      "support": 1807.0
+    },
+    "Shortlisted": {
+      "precision": 0.9185910893398647,
+      "recall": 0.9391843548771762,
+      "f1-score": 0.9287735849056604,
+      "support": 4193.0
+    },
+    "accuracy": 0.8993333333333333,
+    "macro avg": {
+      "precision": 0.8848647215525943,
+      "recall": 0.873023278711416,
+      "f1-score": 0.8785913379073756,
+      "support": 6000.0
+    },
+    "weighted avg": {
+      "precision": 0.8982765738093321,
+      "recall": 0.8993333333333333,
+      "f1-score": 0.8985471447970269,
+      "support": 6000.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      1458,
+      349
+    ],
+    [
+      255,
+      3938
+    ]
+  ],
+  "features": [
+    "years_experience",
+    "skills_match_score",
+    "project_count",
+    "resume_length",
+    "github_activity",
+    "education_level"
+  ]
+}
